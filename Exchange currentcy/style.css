@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Pridi', serif;
+}
+
+body{
+    background-color: #f4f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+.btn{
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 12px;
+}
+.money-img{
+    width:300px
+
+}
+.currency{
+    padding: 40px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    background-color: transparent;
+    appearance: none;
+}
+
+.currency input{
+    padding: 10px 20px 10px 20px;
+    border: 0;
+    background-color: white;
+    font-size: 16px;
+    text-align: right;
+}
+
+.swap-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+button:focus,input:focus{
+    outline: 0;
+}
